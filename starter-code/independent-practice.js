@@ -55,8 +55,8 @@ The end result should be an array of numbers with values 2,3,4,5
 
 // Your code here
 var q5 = [1,2,3,4,5];
-q5.forEach(function(i){
-	q5[i-1]=q5[i-1]+1;
+q5.forEach(function(el,index){
+	q5[index]=el+1;
 });
 
 /**
